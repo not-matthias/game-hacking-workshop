@@ -26,12 +26,20 @@ marp: true
 
 ## You need to download:
 
-- [IDA Free] ????
-- Rust
-- VSCode with Rust Analyzer
-- 
+- [IDA Free](https://hex-rays.com/ida-free/)
+- [Rust](https://rustup.rs/)
+- [VSCode](https://code.visualstudio.com/download) with Rust Analyzer extension
 
-TODO: Add links
+
+---
+
+## Introduction to Rust
+
+- Functions
+- Variables
+- Generics (for .read .write)
+
+TODO: Important!!!!
 
 ---
 
@@ -50,17 +58,6 @@ TODO:
 - Integer Sizes, 32 bit
 - 32 bit pointers for 32 bit processes!!
 - Base address
-
----
-
-
-## Introduction to Rust
-
-- Functions
-- Variables
-- Generics (for .read .write)
-
-TODO: Important!!!!
 
 ---
 
@@ -96,8 +93,12 @@ TODO: Important!!!!
 
 <!-- 
 
+- Show how you can find the offset in IDA
+- Show how you can find it with findmem
+- Write to health (static)
+- Read player, write to health offset
 
- -->
+-->
 
 ---
 
