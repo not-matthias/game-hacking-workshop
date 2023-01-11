@@ -53,7 +53,12 @@ TODO:
 
 ---
 
+
 ## Introduction to Rust
+
+- Functions
+- Variables
+- Generics (for .read .write)
 
 TODO: Important!!!!
 
@@ -89,7 +94,33 @@ TODO: Important!!!!
 
 ## Let's get started
 
+<!-- 
+
+
+ -->
+
+---
+
+## Anticheats
+
+- EasyAntiCheat
+- Battleye
+- Vangard
+
 ---
 
 ## How to continue?
+
+
+---
+
+## Further readings
+
+- [unknowncheats.me](https://www.unknowncheats.me/)
+- [github.com/hax-rs](https://github.com/hax-rs)
+- [/r/ReverseEngineering](https://www.reddit.com/r/ReverseEngineering/)
+- Discord Servers
+  - [Rust RE](https://discord.gg/m2EnYsQddj)
+  - [hax-rs](https://discord.gg/TSbkZbnnjJ)
+  - [Reverse Engineering](https://discord.gg/rtfm)
 
