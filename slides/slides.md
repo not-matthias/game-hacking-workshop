@@ -40,6 +40,14 @@ TODO: Rework
 
 ---
 
+## Source Code
+
+Available here: https://github.com/not-matthias/game-hacking-workshop
+
+TODO: shorturl? 
+
+---
+
 ## About Rust
 
 - Types: `i16` vs `u16`
