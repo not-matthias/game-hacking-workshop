@@ -26,14 +26,6 @@ TODO: Use this as reference: https://www.unknowncheats.me/forum/programming-for-
 Tools: Cheat Engine, Reclass, IDA   (only present this)
 - 
 
-### Rust Intro
-
-IMPORTANT: Explain features used in code base
-- Cargo.toml
-- src/main.rs
-- Commands: cargo check and cargo run
-
-
 ### Practical
 
 - Unlimited ammo/health/armor
