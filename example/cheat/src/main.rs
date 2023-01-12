@@ -1,7 +1,7 @@
 use env_logger::Env;
 use hax::memlib::MemoryReadExt;
-use hax::ExternalMemory;
 use hax::memlib::MemoryWriteExt;
+use hax::ExternalMemory;
 
 fn test_simple(mem: ExternalMemory) {
     // read
