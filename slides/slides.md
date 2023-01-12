@@ -29,6 +29,8 @@ marp: true
 - [IDA Free](https://hex-rays.com/ida-free/)
 - [Rust](https://rustup.rs/)
 - [VSCode](https://code.visualstudio.com/download) with Rust Analyzer extension
+- [Cheat Engine](https://www.cheatengine.org/) (Windows)
+- [Scanmem](https://github.com/scanmem/scanmem) (Linux)
 
 
 ---

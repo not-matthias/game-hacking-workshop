@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 env_logger = "0.10.0"
 log = "0.4.17"
+memoffset = "0.8.0"
