@@ -29,12 +29,10 @@ fn main() {
     loop {
         log::info!("health: {}", health);
         log::info!("&health: {:p}", &health);
-        log::info!("&&health: {:p}", &&health);
         println!();
 
         log::info!("player: {:?}", player);
         log::info!("&player: {:p}", &player);
-        log::info!("&&player: {:p}", &&player);
         println!();
 
         log::info!("player.health: {}", player.health);
