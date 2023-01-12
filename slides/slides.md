@@ -14,18 +14,6 @@ marp: true
 
 ---
 
-## Agenda
-
-- Introduction
-- Showcase
-- Useful tools
-- Example
-- How to continue?
-
-TODO: Rework
-
----
-
 ## You need to download:
 
 - [AssaultCube](https://assault.cubers.net/download.html)
@@ -42,9 +30,10 @@ TODO: Rework
 
 ## Source Code
 
-Available here: https://github.com/not-matthias/game-hacking-workshop
-
-TODO: shorturl? 
+Available here: 
+https://github.com/not-matthias/game-hacking-workshop
+or
+https://shorturl.at/jmqrV
 
 ---
 

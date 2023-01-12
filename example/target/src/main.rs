@@ -52,6 +52,7 @@ fn main() {
 
         // Wait for user input
         //
+        log::info!("Press any key to refresh...");
         let mut input = String::new();
         std::io::stdin().read_line(&mut input).unwrap();
     }
