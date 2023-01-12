@@ -161,7 +161,7 @@ name = "example-cheat"
 version = "0.1.0"
 dependencies = [
  "env_logger",
- "hax 0.0.0 (git+https://github.com/hax-rs/hax)",
+ "hax",
  "log",
 ]
 
@@ -194,28 +194,11 @@ dependencies = [
 [[package]]
 name = "hax"
 version = "0.0.0"
-source = "git+https://github.com/hax-rs/hax?branch=feature#d97d13e4a3c5412d8c7ab8a0ea1d29c224dbc272"
-dependencies = [
- "anyhow",
- "hax-macros 0.0.0 (git+https://github.com/hax-rs/hax?branch=feature)",
- "linkme",
- "log",
- "memlib",
- "nix",
- "serde",
- "toml",
- "typetag",
- "windows",
-]
-
-[[package]]
-name = "hax"
-version = "0.0.0"
 source = "git+https://github.com/hax-rs/hax#108bdab12fd6dda340c3265560b1938edeae005c"
 dependencies = [
  "anyhow",
  "env_logger",
- "hax-macros 0.0.0 (git+https://github.com/hax-rs/hax)",
+ "hax-macros",
  "linkme",
  "log",
  "memlib",
@@ -224,18 +207,6 @@ dependencies = [
  "toml",
  "typetag",
  "windows",
-]
-
-[[package]]
-name = "hax-macros"
-version = "0.0.0"
-source = "git+https://github.com/hax-rs/hax?branch=feature#d97d13e4a3c5412d8c7ab8a0ea1d29c224dbc272"
-dependencies = [
- "ctor",
- "darling",
- "proc-macro2",
- "quote",
- "syn",
 ]
 
 [[package]]
@@ -441,7 +412,9 @@ dependencies = [
 name = "project"
 version = "0.1.0"
 dependencies = [
- "hax 0.0.0 (git+https://github.com/hax-rs/hax?branch=feature)",
+ "env_logger",
+ "hax",
+ "log",
 ]
 
 [[package]]

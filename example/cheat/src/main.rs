@@ -1,6 +1,6 @@
-use hax::ExternalMemory;
-use hax::memlib::MemoryReadExt;
 use env_logger::Env;
+use hax::memlib::MemoryReadExt;
+use hax::ExternalMemory;
 
 fn test_simple(mem: ExternalMemory) {
     // &value
@@ -33,7 +33,6 @@ fn test_struct(mem: ExternalMemory) {
     log::info!("armor: {}", armor);
     log::info!("money: {}", money);
 }
-
 
 fn main() {
     env_logger::Builder::from_env(Env::default().default_filter_or("info")).init();

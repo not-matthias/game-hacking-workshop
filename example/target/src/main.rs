@@ -5,7 +5,7 @@ use memoffset::offset_of;
 struct Player {
     health: u32,
     armor: u32,
-    money: u32
+    money: u32,
 }
 
 impl Player {
@@ -13,7 +13,7 @@ impl Player {
         Self {
             health: 100,
             armor: 200,
-            money: 1000
+            money: 1000,
         }
     }
 }
@@ -51,9 +51,6 @@ fn main() {
         log::info!("&player.money: {:p}", &player.money);
         log::info!("offset: {:x}", offset_of!(Player, money));
         println!();
-
-
-
 
         // Wait for user input
         //
