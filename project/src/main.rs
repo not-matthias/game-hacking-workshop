@@ -14,17 +14,17 @@ use offsets_windows::*;
 
 #[cfg(target_os = "linux")]
 mod offsets_linux {
-    const PLAYER_POINTER: u64 = 0x5F0E10;
-    const HEALTH: u64 = 0x100;
-    const ARMOR: u64 = 0x104;
+    pub const PLAYER_POINTER: u64 = 0x5F0E10;
+    pub const HEALTH: u64 = 0x100;
+    pub const ARMOR: u64 = 0x104;
 }
 
 #[cfg(target_os = "windows")]
 mod offsets_windows {
     // See:  sub_47F8B0
-    const PLAYER_POINTER: u64 = 0x58AC00;
-    const HEALTH: u64 = 0xEC;
-    const ARMOR: u64 = 0xF0;
+    pub const PLAYER_POINTER: u64 = 0x58AC00;
+    pub const HEALTH: u64 = 0xEC;
+    pub const ARMOR: u64 = 0xF0;
 }
 
 struct Player {
