@@ -2,6 +2,10 @@
 
 - **SLIDES**
 
+- Check rust nightly
+  - `Rustup default nightly`
+  - View with: cargo --version
+
 - Explain target application
   - Part 1: Health
   - Part 2: Player Struct
@@ -23,3 +27,5 @@
   - Part 1: Implement read and write for player
 
 - **SLIDES**
+
+Extra time: Show off scanmem

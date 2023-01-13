@@ -58,12 +58,6 @@ https://shorturl.at/jmqrV
 
 ---
 
-### External vs Internal Cheats
-
-TODO
-
----
-
 ## Useful tools
 
 ---
@@ -105,12 +99,6 @@ TODO
 
 ---
 
-## What we learned
-
-
-
----
-
 ## And this is just the start...
 
 ---
@@ -123,6 +111,7 @@ TODO
 - No Recoil / Spread
 
 ---
+
 
 ## Anticheats
 
@@ -143,6 +132,7 @@ TODO
 
 ## Recommended Resources
 
+- [gamehacking.academy](https://gamehacking.academy/)
 - [unknowncheats.me](https://www.unknowncheats.me/)
 - [github.com/hax-rs](https://github.com/hax-rs)
 - [/r/ReverseEngineering](https://www.reddit.com/r/ReverseEngineering/)
