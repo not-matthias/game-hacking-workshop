@@ -46,43 +46,11 @@ https://shorturl.at/jmqrV
 
 ---
 
-## Important Concepts
-
----
-
 ### What is a pointer?
 
 - Points to a memory location
 - 64 Bit Process => 64 Bit pointers
 - 32 Bit Process => 32 Bit pointers
-
----
-
-## Useful tools
-
----
-
-### Cheat Engine
-
-![bg right:73% 95%](https://wiki.cheatengine.org/images/8/8e/Tutorials.CETutorialx64.step02.04.png)
-
----
-
-### Reclass
-
-![bg left:70% 90%](https://camo.githubusercontent.com/712de35cebd00cea16055c09ef4262a2476d7f2e84f9425a7fcf31de6a9dc910/68747470733a2f2f61626c6f61642e64652f696d672f6d61696e346873626a2e6a7067)
-
----
-
-### IDA
-
-![bg right:80% 95%](ida.jpg)
-
----
-
-### x64Dbg
-
-![bg left:72%  95%](https://camo.githubusercontent.com/399b3391c873c9c1484f4487de23e20435d4ef2e251104660c6f7e1fc83e8ee6/68747470733a2f2f692e696d6775722e636f6d2f563266354150392e706e67)
 
 ---
 
@@ -100,6 +68,35 @@ https://shorturl.at/jmqrV
 ---
 
 ## And this is just the start...
+
+---
+
+
+### Useful tools
+
+---
+
+#### Cheat Engine
+
+![bg right:73% 95%](https://wiki.cheatengine.org/images/8/8e/Tutorials.CETutorialx64.step02.04.png)
+
+---
+
+#### Reclass
+
+![bg left:70% 90%](https://camo.githubusercontent.com/712de35cebd00cea16055c09ef4262a2476d7f2e84f9425a7fcf31de6a9dc910/68747470733a2f2f61626c6f61642e64652f696d672f6d61696e346873626a2e6a7067)
+
+---
+
+#### IDA
+
+![bg right:80% 95%](ida.jpg)
+
+---
+
+#### x64Dbg
+
+![bg left:72%  95%](https://camo.githubusercontent.com/399b3391c873c9c1484f4487de23e20435d4ef2e251104660c6f7e1fc83e8ee6/68747470733a2f2f692e696d6775722e636f6d2f563266354150392e706e67)
 
 ---
 
