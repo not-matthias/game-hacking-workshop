@@ -3,7 +3,7 @@
   # env.NIXPKGS_ALLOW_UNFREE = "1";
 
   packages = with pkgs; [
-    # assaultcube
+    assaultcube
     chromium # Required for marp
   ];
 
@@ -15,10 +15,9 @@
   languages.javascript.enable = true;
 
   enterShell = ''
+    export PATH="$HOME/.npm-global/bin:$PATH"
     npm set prefix ~/.npm-global
     # npm i -g  @marp-team/marp-cli
-
-    export PATH="$HOME/.npm-global/bin:$PATH"
   '';
 
   scripts.slides.exec = ''
