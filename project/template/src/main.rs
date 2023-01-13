@@ -1,0 +1,36 @@
+#![allow(unused)]
+
+use env_logger::Env;
+use hax::memlib::MemoryReadExt;
+use hax::memlib::MemoryWriteExt;
+use hax::ExternalMemory;
+
+#[cfg(target_os = "linux")]
+use offsets_linux::*;
+
+#[cfg(target_os = "windows")]
+use offsets_windows::*;
+
+#[cfg(target_os = "linux")]
+mod offsets_linux {
+    pub const PLAYER_POINTER: u64 = 0x5F0E10;
+    pub const HEALTH: u64 = 0x100;
+    pub const ARMOR: u64 = 0x104;
+}
+
+#[cfg(target_os = "windows")]
+mod offsets_windows {
+    // See:  sub_47F8B0
+    pub const PLAYER_POINTER: u64 = 0x58AC00;
+    pub const HEALTH: u64 = 0xEC;
+    pub const ARMOR: u64 = 0xF0;
+}
+
+fn main() {
+    env_logger::Builder::from_env(Env::default().default_filter_or("info")).init();
+
+    let pid = 1401328;
+    let mem = ExternalMemory::new(pid);
+
+    // TODO: Our code goes here
+}

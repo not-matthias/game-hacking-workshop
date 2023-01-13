@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 use env_logger::Env;
 use hax::memlib::MemoryReadExt;
 use hax::memlib::MemoryWriteExt;

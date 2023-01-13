@@ -2,5 +2,7 @@
 members = [
     "example/cheat",
     "example/target",
-    "project"
+    "example/template",
+    "project/cheat",
+    "project/template"
 ]

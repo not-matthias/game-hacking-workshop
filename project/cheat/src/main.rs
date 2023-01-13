@@ -11,7 +11,6 @@ use offsets_linux::*;
 #[cfg(target_os = "windows")]
 use offsets_windows::*;
 
-
 #[cfg(target_os = "linux")]
 mod offsets_linux {
     pub const PLAYER_POINTER: u64 = 0x5F0E10;
