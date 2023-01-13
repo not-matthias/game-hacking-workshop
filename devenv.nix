@@ -7,7 +7,11 @@
     chromium # Required for marp
   ];
 
-  languages.rust.enable = true;
+  languages.rust = {
+    enable = true;
+    version = "latest";
+  };
+
   languages.javascript.enable = true;
 
   enterShell = ''
