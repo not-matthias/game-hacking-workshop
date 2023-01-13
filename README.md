@@ -1,8 +1,3 @@
 # game-hacking-workshop
 
-### TODO: 
-
-- [ ] Change order of slides? 
-- [ ] Test on windows
-- [ ] Create template and full source code
-- [ ] Check rust nightly!!!
+Slides can be found [here](./slides/slides.md).
