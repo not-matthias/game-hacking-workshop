@@ -2,7 +2,7 @@
 
 Slides can be found [here](./slides/slides.md).
 
-## Pre-requisites
+## Prerequisites
 
 - [AssaultCube](https://assault.cubers.net/download.html)
 - [Rust](https://rustup.rs/)
