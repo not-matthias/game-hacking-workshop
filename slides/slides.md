@@ -114,7 +114,7 @@ https://shorturl.at/jmqrV
 
 - EasyAntiCheat
 - Battleye
-- Vangard
+- Vanguard
 - ...
 
 ---
